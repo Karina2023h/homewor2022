@@ -1,6 +1,8 @@
-import "./styles.scss";
 import $ from "jquery";
+import "bootstrap";
+import "./styles.scss";
 
+// /dist/js/bootstrap.min.js
 $(document).ready(function () {
   loadTod();
 

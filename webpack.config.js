@@ -79,11 +79,11 @@ module.exports = {
     minimizer: [new TerserPlugin(), new CssMinimizerPlugin()],
   },
   devServer: {
-    static: path.join(__dirname, "dist"), // Використовуйте 'static' замість 'contentBase'
+    static: path.join(__dirname, "dist"),
     compress: true,
     port: 9000,
     open: true,
-    watchFiles: ["src/**/*"], // Використовуйте 'watchFiles' замість 'watchContentBase'
+    watchFiles: ["src/**/*"],
   },
   watch: true,
 };

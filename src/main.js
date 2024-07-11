@@ -1,3 +1,6 @@
+import "./styles.scss";
+import $ from "jquery";
+
 $(document).ready(function () {
   loadTod();
 
